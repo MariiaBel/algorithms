@@ -1,3 +1,3 @@
 # Algorithms. Play and learn
 
-[Click to see the project]().
+[Click to see the project](https://mariiabel.github.io/algorithms/).
