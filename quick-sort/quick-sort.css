@@ -1,0 +1,47 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.numbers {
+}
+
+.numbers input {
+    width: 3em;
+}
+
+.number-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.number-list__item {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid burlywood;
+    background-color: transparent;
+}
+
+.number-list__item.--pivot {
+    transition: background-color ease-out 1s;
+    background-color: aquamarine;
+}
+
+.number-list__item.--left {
+    transition: background-color ease-out 1s;
+    background-color: gainsboro;
+}
+
+.number-list__item.--right {
+    transition: background-color ease-out 1s;
+    background-color: bisque;
+}
+
+/* .number-list__item.--fail {
+    background-color: palevioletred;
+} */
